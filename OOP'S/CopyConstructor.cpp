@@ -14,7 +14,7 @@ public:
     }
 
     // Correct copy constructor
-    student(const student &copy) {
+    student(student &copy) {
         name = copy.name;
     }
 };
